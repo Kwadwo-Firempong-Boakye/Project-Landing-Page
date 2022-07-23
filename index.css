@@ -16,4 +16,14 @@
     --quote-size: 36px;
     --quote-style: italic;
     --quote-color: var(var(--info-header-color));
+    font-size: 16px;
+}
+
+header, 
+.hero-area,
+.image-cards-area,
+.quote-area,
+.cta{
+    padding: 0 12rem;
+    border: 1px solid lightblue;
 }
