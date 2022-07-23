@@ -1,2 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
+:root{
+    font-family: 'Roboto', sans-serif;
+    --dark-background: #1F2937;
+    --HMT-size: 48px;
+    --HMT-weight: extrabold;
+    --HMT-color: #f9faf8;
+    --HST-size: 18px;
+    --HST-color: #e5e7eb;
+    --HLT-size: 24px;
+    --button-CTA-color: #3882f6;
+    --info-header-size: 36px;
+    --info-header-color: #1f2937;
+    --quote-background: var(var(--HST-color));
+    --quote-size: 36px;
+    --quote-style: italic;
+    --quote-color: var(var(--info-header-color));
+}
