@@ -17,6 +17,7 @@
     --quote-style: italic;
     --quote-color: var(var(--info-header-color));
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 header, 
@@ -26,4 +27,49 @@ header,
 .cta{
     padding: 0 12rem;
     border: 1px solid lightblue;
+}
+
+/*Header Area*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--dark-background);
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img{
+    width: 4rem;
+}
+
+.logo p{
+    color: var(--HMT-color);
+    font-size: var(--HLT-size);
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+}
+
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color:var(--HST-color);
+    font-size: var(--HST-size);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: rgb(0, 191, 255);
+    transform: translate(0rem, -0.25rem);
+    font-size: 20px;
 }
