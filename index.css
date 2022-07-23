@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
+
 :root{
     font-family: 'Roboto', sans-serif;
     --dark-background: #1F2937;
@@ -20,16 +21,21 @@
     scroll-behavior: smooth;
 }
 
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 header, 
 .hero-area,
 .image-cards-area,
 .quote-area,
 .cta{
-    padding: 0 12rem;
-    border: 1px solid lightblue;
+    padding: 0 15rem;
+    /*border: 1px solid lightblue;*/
 }
 
-/*Header Area*/
+/*HEADER AREA*/
 
 header{
     display: flex;
@@ -69,7 +75,62 @@ nav a{
 }
 
 nav a:hover{
-    color: rgb(0, 191, 255);
+    color: var(--button-CTA-color);
     transform: translate(0rem, -0.25rem);
     font-size: 20px;
+}
+
+/*HERO AREA*/
+
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: var(--dark-background);
+}
+
+.hero-text{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1{
+    color: var(--HMT-color);
+    font-size: var(--HMT-size);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    width: 25rem;
+}
+
+.hero-text p{
+    color: var(--HST-color);
+    font-size: 24px;
+    width: 35rem;
+}
+
+.hero-text button{
+    background-color: var(--button-CTA-color);
+    color: var(--HST-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: var(--HST-size);
+    font-weight: bold;
+    border-radius: 0.75rem;
+    transition: 0.3s;
+}
+
+.hero-text button:hover{
+    transform: translate(0.25rem, -0.5rem);
+    background-color: var(--HST-color);
+    color: var(--dark-background);
+    padding: 1.5rem;
+    font-size: 20px;
+}
+
+.hero-image{
+    position: relative;
+    bottom: 40px;
+    z-index: 0;
 }
