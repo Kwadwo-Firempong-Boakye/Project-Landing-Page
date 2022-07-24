@@ -37,7 +37,6 @@ header{
     background: var(--dark-background);
     flex-wrap: wrap;
     padding: 0 12vw;
-    
 }
 
 .logo{
@@ -144,8 +143,7 @@ nav a:hover{
     font-size: var(--info-header-size);
     color: var(--info-header-color);
     font-weight: bold;
-    margin: 5rem;
-    
+    margin: 5rem 2rem;
 }
 
 .image-cards{
@@ -162,9 +160,11 @@ nav a:hover{
     color: var(--info-header-color);
     margin: 0;
     padding: 0;
+    margin-bottom: 5rem;
     flex-basis: 350px;
-    border: 1px dashed rgb(198, 202, 206);
+    /*border: 1px dashed rgb(198, 202, 206);*/
     border-radius: 1rem;
+    box-shadow: 3px 3px 18px 3px rgb(217, 226, 247);
 }
 /*Sub-Container*/
 .image{
@@ -176,7 +176,7 @@ nav a:hover{
 }
 
 .image img{
-    border: 1px solid rgb(198, 202, 206);
+    /*border: 1px solid rgb(198, 202, 206);*/
     border-radius: 20%;
     box-shadow: 5px 5px 5px lightgray;
     transition: 0.5s;
@@ -202,4 +202,89 @@ nav a:hover{
     font-size: 1.2rem;
     text-align: justify;
     padding: 0 1rem;
+}
+
+
+.quote-area{
+    background: var(--HST-color);
+    padding: 7vw 12vw;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.embellish p{
+    font-size: 180px;
+    position: relative;
+    bottom: 20px;
+    margin: 0;
+}
+
+.quote{
+    font-size: var(--quote-size);
+    font-style: var(--quote-style);
+    color: var(--quote-color);
+    max-width: 700px;
+    text-align: left;
+}
+
+.quote-caption{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    right: 50px;
+}
+
+/*CTA AREA*/
+.cta{
+    background: white;
+}
+
+.cta-container{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--button-CTA-color);
+    padding: 4rem;
+    margin: 5vw 12vw;
+
+}
+
+.cta-heading{
+    color: var(--HMT-color);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.cta-caption{
+    color: var(--HMT-color);
+    font-size: 20px;
+}
+
+.cta-message{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #f9faf8;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 1.3rem;
+    background: var(--button-CTA-color);
+    border: 3px solid #f9faf8;
+    border-radius: 1rem;
+    transition: 0.4s;
+}
+
+.cta-message:hover{
+    transform: translate(0.25rem, -0.5rem);
+    background-color: var(--HMT-color);
+    color: var(--dark-background);
 }
