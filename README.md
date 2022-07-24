@@ -10,6 +10,10 @@ The goal is to build a web page from the screenshot and guidelines given below:
 
 In the spirit of helping others to access good resources to learn code, I chose to build a Code-Resources landing page. The self-taught developer pathway can be quite the maze. I hope sharing some of the best resources I have used in my journey, benefits someone out there.
 
+Kindly find a screenshot of the final submission below:
+
+![Screenshot of Final Submission](https://i.imgur.com/bOzrXdD.png)
+
 This project showcases:
 
     - Ability to build HTML pages from scratch.
@@ -19,7 +23,3 @@ This project showcases:
     - Ability to use the terminal to create, read, copy & move files.
     - Ability to use Git via the terminal for version control and GitHub to create repositories.
     - Ability to respect copyrights and accredit sources of information.
-
-    Kindly find a screenshot of the final submission below:
-
-    ![Screenshot of Final Submission](https://i.imgur.com/bOzrXdD.png)
