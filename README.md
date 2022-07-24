@@ -4,7 +4,7 @@ As part of The Odin Project's - Web Development Foundation's - course, I’ll be
 
 The goal is to build a web page from the screenshot and guidelines given below:
 
-![Screenshot of Odin Project Template given](https://i.imgur.com/n7vCQlb.png | width=500)
+![Screenshot of Odin Project Template given](https://i.imgur.com/n7vCQlb.png)
 
 The styling guidelines can be found here: https://i.imgur.com/IA2nAUj.png
 
@@ -14,7 +14,7 @@ In the spirit of helping others to access good resources to learn code, I chose 
 
 Kindly find a screenshot of the final submission below:
 
-![Screenshot of Final Submission](https://i.imgur.com/bOzrXdD.png | width=500)
+![Screenshot of Final Submission](https://i.imgur.com/bOzrXdD.png)
 
 This project showcases:
 
