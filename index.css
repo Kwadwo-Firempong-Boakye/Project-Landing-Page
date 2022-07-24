@@ -26,14 +26,7 @@ html, body{
     padding: 0;
 }
 
-header, 
-.hero-area,
-.image-cards-area,
-.quote-area,
-.cta{
-    padding: 0 15rem;
-    /*border: 1px solid lightblue;*/
-}
+
 
 /*HEADER AREA*/
 
@@ -43,6 +36,8 @@ header{
     align-items: center;
     background: var(--dark-background);
     flex-wrap: wrap;
+    padding: 0 12vw;
+    
 }
 
 .logo{
@@ -86,16 +81,13 @@ nav a:hover{
 
 .hero-area{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: flex-start;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    justify-content: space-between;
+    padding: 4vw 12vw;
     background: var(--dark-background);
-}
-
-.hero-text{
-    position: relative;
-    z-index: 1;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .hero-text h1{
@@ -109,7 +101,7 @@ nav a:hover{
 .hero-text p{
     color: var(--HST-color);
     font-size: 24px;
-    width: 35rem;
+    max-width: 35rem;
 }
 
 .hero-text button{
@@ -135,6 +127,8 @@ nav a:hover{
     position: relative;
     bottom: 40px;
     z-index: 0;
+    flex-basis: 700px;
+    object-fit: cover;
 }
 
 /*IMAGE CARD AREA*/
@@ -145,6 +139,7 @@ nav a:hover{
     color: var(--info-header-color);
     font-weight: bold;
     margin: 5rem;
+    padding: 0 10rem;
 }
 
 .image-cards{
