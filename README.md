@@ -6,7 +6,9 @@ The goal is to build a web page from the screenshot and guidelines given below:
 
 ![Screenshot of Odin Project Template given](https://i.imgur.com/n7vCQlb.png)
 
-![Screenshot of Odin Project style-set given](https://i.imgur.com/IA2nAUj.png)
+The styling guidelines can be found here: https://i.imgur.com/IA2nAUj.png
+
+The exercise requirements can be found here: https://www.theodinproject.com/lessons/foundations-landing-page
 
 In the spirit of helping others to access good resources to learn code, I chose to build a Code-Resources landing page. The self-taught developer pathway can be quite the maze. I hope sharing some of the best resources I have used in my journey, benefits someone out there.
 
