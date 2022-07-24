@@ -200,7 +200,7 @@ nav a:hover{
 
 .image p{
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: left;
     padding: 0 1rem;
 }
 
@@ -246,7 +246,7 @@ nav a:hover{
 
 .cta-container{
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -287,4 +287,17 @@ nav a:hover{
     transform: translate(0.25rem, -0.5rem);
     background-color: var(--HMT-color);
     color: var(--dark-background);
+}
+
+.footer-area{
+    text-align: center;
+    background: var(--dark-background);
+    padding: 2rem;
+    color: var(--HMT-color);
+    margin: 0;
+}
+
+.footer-area a{
+    text-decoration: none;
+    color: var(--button-CTA-color)
 }
