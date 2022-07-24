@@ -42,6 +42,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: var(--dark-background);
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -49,6 +50,7 @@ header{
     justify-content:flex-start;
     align-items: center;
     gap: 0.5rem;
+    flex-basis: 300px;
 }
 
 .logo img{
