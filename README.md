@@ -11,7 +11,7 @@ In the spirit of helping others to access good resources to learn code, I chose 
 
 Kindly find a link to the outcome and screenshot of the final submission below:
 
-<a href="https://kwadwo-firempong-boakye.github.io/Project-Landing-Page/ target="_blank">Click here to view in your browser</a>
+https://kwadwo-firempong-boakye.github.io/Project-Landing-Page/
 
 ![Screenshot of Final Submission](https://i.imgur.com/bOzrXdD.png)
 
